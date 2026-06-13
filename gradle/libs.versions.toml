@@ -1,0 +1,28 @@
+[versions]
+agp = "8.5.0"
+kotlin = "1.9.24"
+coreKtx = "1.13.1"
+lifecycleService = "2.8.0"
+lifecycleRuntimeKtx = "2.8.0"
+lifecycleViewmodelCompose = "2.8.0"
+composeBom = "2024.06.00"
+savedstate = "1.2.1"
+activityKtx = "1.9.0"
+
+[libraries]
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+androidx-lifecycle-service = { group = "androidx.lifecycle", name = "lifecycle-service", version.ref = "lifecycleService" }
+androidx-lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycleRuntimeKtx" }
+androidx-lifecycle-viewmodel-compose = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-compose", version.ref = "lifecycleViewmodelCompose" }
+androidx-savedstate = { group = "androidx.savedstate", name = "savedstate", version.ref = "savedstate" }
+androidx-savedstate-ktx = { group = "androidx.savedstate", name = "savedstate-ktx", version.ref = "savedstate" }
+androidx-activity-ktx = { group = "androidx.activity", name = "activity-ktx", version.ref = "activityKtx" }
+compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "composeBom" }
+compose-ui = { group = "androidx.compose.ui", name = "ui" }
+compose-ui-graphics = { group = "androidx.compose.ui", name = "ui-graphics" }
+compose-foundation = { group = "androidx.compose.foundation", name = "foundation" }
+compose-runtime = { group = "androidx.compose.runtime", name = "runtime" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }

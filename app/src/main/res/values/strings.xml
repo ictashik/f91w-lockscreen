@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Casio F-91W</string>
+    <string name="notification_channel_name">Casio Lock Screen</string>
+    <string name="notification_title">Casio F-91W Active</string>
+    <string name="notification_text">Watch face is running on lock screen</string>
+</resources>

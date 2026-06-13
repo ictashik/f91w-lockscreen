@@ -1,0 +1,31 @@
+# Local configuration
+local.properties
+
+# Gradle
+.gradle/
+build/
+app/build/
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Keystore / signing
+*.jks
+*.keystore
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Kotlin incremental compilation caches
+**/.kotlin/
+
+# Generated
+gen/
+generated/

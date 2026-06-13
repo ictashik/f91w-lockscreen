@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="casio_green">#FF8DAF6F</color>
+    <color name="segment_lit">#FF2D3A1E</color>
+    <color name="casio_bezel">#FF1A1A1A</color>
+    <color name="casio_body">#FF2B2B2B</color>
+</resources>
